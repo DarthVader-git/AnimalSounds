@@ -31,7 +31,8 @@ class ViewController: UIViewController {
     
     
     @IBAction func mouseButtonTapped(_ sender: Any) {
-         animalSoundLabel.text = "Moo!"
+         animalSoundLabel.text = "Moooooo!"
+        print(1231)
         mooSound.play()
     }
     
